@@ -1,0 +1,183 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flag_logo {
+    width: 50px;
+    height: 50px;
+    background-image: url("img/flag-logo.png");
+    background-size: cover;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#name_nav {
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+#name_nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 100vmax;
+    margin: auto;
+}
+
+.navigation {
+    display: flex;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+ul {
+    margin-top: 27px;
+}
+
+li {
+    display: inline;
+    font-size: 16px;
+    margin-right: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: forestgreen;
+}
+
+.menu:hover {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+#login_nav {
+    font-weight: bold;
+    align: right;
+}
+
+.small-container {
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col {
+    float: left;
+    width: 33.33%;
+    transition: transform 0.5s;
+}
+
+.col img {
+    width: 70%;
+}
+
+.col:hover {
+    transform: translateY(-5px);
+}
+
+.row a {
+    text-decoration: none;
+    color: black;
+}
+
+.login  {
+    padding: 50px 0;
+}
+
+.formular {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+
+}
+
+.btn {
+    display: inline-block;
+    background: green;
+    color: white;
+    padding: 8px 30px;
+    margin: 10px 0;
+    border-radius: 30px;
+}
+
+.col-login {
+    float: left;
+    width: 50%;
+}
+
+.formular form {
+    max-width: 300px;
+    padding: 0 20px;
+}
+
+form input {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0;
+    padding: 0 10px;
+    border: 1px solid green;
+}
+
+.col-produkt {
+    float: left;
+    width: 50%;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 21px;
+    display: none;
+}
+
+@media only screen and (max-width: 850px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 200px;
+        background-color: lightgray;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+.nav_items {
+    alignment: right;
+}
+
+.navbar-brand {
+    color: azure;
+}
+
+.obrazok {
+    width: 400px;
+    height: 150px;
+}
+
+.medzera {
+    bottom: 50px;
+    top: 50px;
+}
