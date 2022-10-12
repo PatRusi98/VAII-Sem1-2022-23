@@ -52,3 +52,13 @@ pr-body {
 .pr-footer {
     background-color: rgba(0, 0, 0, 0.025);
 }
+
+.pr-freeraces {
+    min-height: 500px;
+    margin-top: 50px;
+}
+
+.pr-card {
+    margin-top: 50px;
+    max-width: 99vmax;
+}
